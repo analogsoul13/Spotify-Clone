@@ -44,6 +44,14 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import arijith from './arijith.jpg'
+import arr from './arr.jpg'
+import jasleen from './jasleen.jpg'
+import sitara from './sitara.jpg'
+import sushin from './sushin.jpg'
+import vineeth from './vineeth.jpg'
+import shreya from './shreya.jpg'
+import anirudh from './anirudh.jpg'
 
 export const assets = {
     bell_icon,
@@ -72,7 +80,15 @@ export const assets = {
     spotify_main_logo,
     download_icon,
     hamburger_icon,
-    clock_icon
+    clock_icon,
+    arijith,
+    arr,
+    jasleen,
+    shreya,
+    sitara,
+    sushin,
+    vineeth,
+    anirudh
 }
 
 export const albumsData = [
@@ -117,6 +133,50 @@ export const albumsData = [
         image: img15,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#744210"
+    }
+]
+
+export const artistData = [
+    {
+        id:0,
+        name: "A.R.Rahman",
+        image : arr
+    },
+    {
+        id:1,
+        name: "Arijith Singh",
+        image: arijith
+        
+    },
+    {
+        id:2,
+        name: "Sushin Shyam",
+        image : sushin
+    },
+    {
+        id:3,
+        name: "Jasleen Royal",
+        image: jasleen
+    },
+    {
+        id:4,
+        name: "Vineeth Sreenivasan",
+        image: vineeth
+    },
+    {
+        id:5,
+        name: "Sitara Krishnakumar",
+        image: sitara
+    },
+    {
+        id:6,
+        name: "Anirudh Ravichander",
+        image: anirudh
+    },
+    {
+        id:7,
+        name: "Shreya Ghoshal",
+        image: shreya
     }
 ]
 
