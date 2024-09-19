@@ -16,7 +16,7 @@ const Hamburger = () => {
         // Hamburger Menu
         <div className='flex flex-col sm:hidden w-full text-2xl font-bold p-6 h-full absolute bg-black top-0'>
             <div className='flex justify-end p-2'>
-                <img onClick={toggle} className='w-6 h-6 cursor-pointer' src={assets.close_icon} alt="" />
+                <img onClick={toggle} className='w-6 h-6 cursor-pointer mr-2' src={assets.close_icon} alt="" />
             </div>
         <div className='flex flex-row w-full mt-8 mb-6'>
             <ul>
