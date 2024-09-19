@@ -6,6 +6,7 @@ import Sidebar from './Sidebar'
 const Navbar = () => {
 
     const navigate = useNavigate()
+    const Nav = () => {}
 
   return (
     <>
@@ -22,19 +23,12 @@ const Navbar = () => {
                 <p className='py-1 px-1 text-[15px]'>Install App</p>
                 </div>
                 {/* Hamburger Icon */}
-                <img className='sm:hidden w-5 h-5 cursor-pointer' src={assets.hamburger_icon} alt="" />
+                <img className='sm:hidden w-5 mr-4 h-6 cursor-pointer' src={assets.hamburger_icon} alt="" />
 
                 
                 <p className='bg-purple-500 hidden sm:flex text-black w-7 h-7 rounded-full items-center justify-center'>N</p>
 
-            </div>
-            
-        </div>
-        <div className='flex items-center gap-2 mt-4'>
-            <p className='bg-white text-black px-4 py-1 rounded-2xl cursor-pointer'>All</p>
-            <p className='bg-black px-4 py-1 rounded-2xl cursor-pointer'>Music</p>
-            <p className='bg-black px-4 py-1 rounded-2xl cursor-pointer'>Podcasts</p>
-
+            </div>           
         </div>
     </>
   )

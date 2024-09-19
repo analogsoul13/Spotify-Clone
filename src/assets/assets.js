@@ -94,10 +94,10 @@ export const assets = {
 export const albumsData = [
     {   
         id:0,
-        name: "Top 50 Global",
-        image: img8,
+        name: "Mega Hits,",
+        image: img11,
         desc:"Your weekly update of the most played tracks",
-        bgColor:"#2a4365"
+        bgColor:"#234e52"
     },
     {   
         id:1,
@@ -122,10 +122,10 @@ export const albumsData = [
     },
     {   
         id:4,
-        name: "Mega Hits,",
-        image: img11,
+        name: "Top 50 Global",
+        image: img8,
         desc:"Your weekly update of the most played tracks",
-        bgColor:"#234e52"
+        bgColor:"#2a4365"
     },
     {   
         id:5,
