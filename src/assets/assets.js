@@ -24,6 +24,7 @@ import spotify_logo from './spotify_logo.png'
 import spotify_main_logo from './spotify_main_logo.png'
 import download_icon from './download_icon.png'
 import hamburger_icon from './hamburger_icon.png'
+import close_icon from './close_icon.png'
 import clock_icon from './clock_icon.png'
 import img1 from './img1.jpg'
 import img2 from './img2.jpg'
@@ -80,6 +81,7 @@ export const assets = {
     spotify_main_logo,
     download_icon,
     hamburger_icon,
+    close_icon,
     clock_icon,
     arijith,
     arr,
@@ -103,14 +105,14 @@ export const albumsData = [
         id:1,
         name: "Top 50 India",
         image: img9,
-        desc:"Your weekly update of the most played tracks",
+        desc:"The 50 the most played tracks in india",
         bgColor:"#22543d"
     },
     {   
         id:2,
         name: "Trending India",
         image: img10,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Your weekly update of the trending tracks",
         bgColor:"#742a2a"
     },
     {   
@@ -131,7 +133,7 @@ export const albumsData = [
         id:5,
         name: "Happy Favorites",
         image: img15,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Happy favorites tracks for you",
         bgColor:"#744210"
     }
 ]
