@@ -21,6 +21,9 @@ import volume_icon from './volume.png'
 import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
+import spotify_main_logo from './spotify_main_logo.png'
+import download_icon from './download_icon.png'
+import hamburger_icon from './hamburger_icon.png'
 import clock_icon from './clock_icon.png'
 import img1 from './img1.jpg'
 import img2 from './img2.jpg'
@@ -66,6 +69,9 @@ export const assets = {
     arrow_left,
     arrow_right,
     spotify_logo,
+    spotify_main_logo,
+    download_icon,
+    hamburger_icon,
     clock_icon
 }
 
